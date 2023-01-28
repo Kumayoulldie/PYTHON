@@ -1,0 +1,19 @@
+asteriscos_1 = "**********************************"
+astericos_2 = "**********************************"
+mensagem_boa_vinda = "bem vindos ao jogo de adivianhacao"
+print(astericos_2)
+print(mensagem_boa_vinda)
+print(asteriscos_1)
+# MENSAGEMDEBEMVINDO #
+
+numero_secreto_variavel = 18
+chute = int(input("Digite um numero:"))
+
+print("O numero que voce chutou foi", chute)
+
+if numero_secreto_variavel == chute:
+    print("Voce Acertou!")
+else:
+    print("Voce Errou ;d ", "O número era ", numero_secreto_variavel)
+
+print("FIM DE JOGO !!")
